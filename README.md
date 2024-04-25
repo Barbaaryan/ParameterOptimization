@@ -36,3 +36,35 @@ This dataset provides a good example for exploring SVM model optimization due to
 - **Recall:** The ratio of true positives (correctly classified positive examples) to all actual positive examples.
 
 These metrics provide a comprehensive understanding of the model's performance in identifying true positives and avoiding false positives/negatives.
+
+Absolutely! Here's the content for the Results section with a comprehensive table incorporating all the information:
+
+## Results
+
+The hyperparameter tuning process yielded promising results for the SVM model on the Letter Recognition dataset. Here's a breakdown of the key findings:
+
+**Grid Search and Best Parameters:**
+
+- The grid search identified a consistent set of hyperparameters (C=10 and gamma=0.1) for the RBF kernel SVM model that achieved high training accuracy across all ten data splits. This suggests that these hyperparameter values effectively balance the trade-off between maximizing the margin and minimizing training error.
+
+**Testing Performance:**
+
+The following table summarizes the results for each data split:
+
+| Sample | Best Model | Best Parameters | Best Accuracy (Training) | Testing Accuracy | Precision (weighted) | Recall (weighted) |
+|---|---|---|---|---|---|---|
+| 1 | SVC(C=10, gamma=0.1) | {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'} | 0.9612 | 0.9642 | 0.9648 | 0.9642 |
+| 2 | SVC(C=10, gamma=0.1) | {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'} | 0.9605 | 0.9620 | 0.9626 | 0.9620 |
+| 3 | SVC(C=10, gamma=0.1) | {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'} | 0.9598 | 0.9660 | 0.9666 | 0.9660 |
+| 4 | SVC(C=10, gamma=0.1) | {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'} | 0.9595 | 0.9648 | 0.9654 | 0.9648 |
+| 5 | SVC(C=10, gamma=0.1) | {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'} | 0.9579 | 0.9682 | 0.9684 | 0.9682 |
+| 6 | SVC(C=10, gamma=0.1) | {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'} | 0.9580 | 0.9635 | 0.9638 | 0.9635 |
+| 7 | SVC(C=10, gamma=0.1) | {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'} | 0.9587 | 0.9648 | 0.9653 | 0.9648 |
+| 8 | SVC(C=10, gamma=0.1) | {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'} | 0.9583 | 0.9670 | 0.9672 | 0.9670 |
+| 9 | SVC(C=10, gamma=0.1) | {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'} | 0.9596 | 0.9663 | 0.9668 | 0.9663 |
+| 10 | SVC(C=10, gamma=0.1) | {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'} | 0.9628 | 0.9637 | 0.9642 | 0.9637 |
+
+**Overall Observations:**
+
+- The consistent hyperparameter selection across splits suggests that the grid search effectively identified a robust configuration for the SVM model.
+- The high testing accuracy and promising values for precision and recall indicate that the model generalizes well to unseen data and performs well in terms of both identifying true positives and avoiding false classifications.
