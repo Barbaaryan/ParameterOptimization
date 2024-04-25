@@ -4,7 +4,7 @@ Support Vector Machines (SVMs) are a powerful machine learning algorithm widely 
 
 The primary objective is to identify the best hyperparameter configuration for the SVM model using grid search. By tuning hyperparameters like regularization (C) and kernel coefficient (gamma), we aim to achieve optimal performance on unseen testing data. This approach helps us build a robust and generalizable classification model.
 ## Dataset
-The dataset used for this project is the Letter Recognition dataset from the UCI Machine Learning Repository ([http://archive.ics.uci.edu/ml/datasets/Letter+Recognition](Letter Recognition)). It's a popular benchmark dataset for classification tasks involving handwritten character recognition.
+The dataset used for this project is the Letter Recognition dataset from the UCI Machine Learning Repository. The original dataset can be found at the [Letter Recognition Dataset](http://archive.ics.uci.edu/ml/datasets/Letter+Recognition) on the UCI Machine Learning Repository. It's a popular benchmark dataset for classification tasks involving handwritten character recognition.
 
 The dataset consists of 20,000 samples, each representing a single handwritten letter. Each sample has 16 numeric features that describe various aspects of the letter image, such as the number of black pixels in specific regions. The target variable is the capital letter (A-Z) represented by the image.
 
