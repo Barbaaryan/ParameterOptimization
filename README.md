@@ -1,4 +1,9 @@
-# Parameter Optimization
+# Assignment08 - Parameter Optimization of SVM
+Submitted by: ***Aaryan Gupta***
+
+Roll No: ***102103053***
+
+Group: ***3COE2***
 ## Introduction
 Support Vector Machines (SVMs) are a powerful machine learning algorithm widely used for classification tasks. They excel at finding hyperplanes in high-dimensional space that effectively separate data points belonging to different classes. This project explores the optimization of an SVM model for a specific classification problem.
 
