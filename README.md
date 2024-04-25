@@ -73,7 +73,8 @@ The following table summarizes the results for each data split:
 
 - The consistent hyperparameter selection across splits suggests that the grid search effectively identified a robust configuration for the SVM model.
 - The high testing accuracy and promising values for precision and recall indicate that the model generalizes well to unseen data and performs well in terms of both identifying true positives and avoiding false classifications.
-
+**Convergence Graph:**
+![Graph]([https://github.com/Barbaaryan/ParameterOptimization/blob/main/ConvergenceGraph.png?raw=true])
 ## Conclusion
 
 The project successfully explored the optimization of an SVM model for a letter recognition classification task using the UCI Letter Recognition dataset. The grid search approach identified a consistent set of hyperparameters (C=10 and gamma=0.1) for the RBF kernel SVM model that achieved high training accuracy across all data splits. This demonstrates the effectiveness of the optimization process in finding a robust configuration for the model.
