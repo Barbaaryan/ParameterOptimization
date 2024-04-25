@@ -75,6 +75,7 @@ The following table summarizes the results for each data split:
 - The high testing accuracy and promising values for precision and recall indicate that the model generalizes well to unseen data and performs well in terms of both identifying true positives and avoiding false classifications.
 
 **Convergence Graph:**
+
 ![Graph](https://github.com/Barbaaryan/ParameterOptimization/blob/main/ConvergenceGraph.png?raw=true)
 
 ## Conclusion
